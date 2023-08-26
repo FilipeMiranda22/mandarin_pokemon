@@ -1,0 +1,165 @@
+.pokemon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon_card {
+  color: whitesmoke;
+  height: 25rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 8px hsla(0, 0%, 0%, 0.5);
+  transition: 0.3s;
+}
+
+.pokemon_card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon_card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  max-width: 100%;
+}
+
+.pokemon_card img,
+.pokemon_card h2,
+.pokemon_card p {
+  margin-bottom: 1rem;
+}
+
+.background_pokemon {
+  width: 100%;
+  position: relative;
+}
+
+.gif_pokemon {
+  position: absolute;
+  width: auto;
+  height: 125px;
+}
+
+.type_group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.type_group img {
+  width: 30px;
+  margin: 0;
+}
+
+.poke_infos {
+  width: 90%;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poke_infos span {
+  text-transform: uppercase;
+}
+
+.poke_fav {
+  opacity: 0.5;
+  width: 15%;
+  margin: 0 !important;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.poke_fav.active {
+  opacity: 1;
+}
+
+.poke_infos img:hover {
+  opacity: 1;
+}
+
+.pokemon_card.background_fire {
+  background-color: rgba(126, 6, 6, 0.774);
+}
+
+.pokemon_card.background_water {
+  background-color: rgba(12, 86, 196, 0.863);
+}
+
+.pokemon_card.background_electric {
+  background-color: rgba(238, 238, 16, 0.822);
+}
+
+.pokemon_card.background_grass {
+  background-color: rgba(34, 153, 10, 0.753);
+}
+
+.pokemon_card.background_ice {
+  background-color: rgba(48, 190, 171, 0.753);
+}
+
+.pokemon_card.background_psychic {
+  background-color: rgba(7, 48, 109, 0.863);
+}
+
+.pokemon_card.background_ground {
+  background-color: rgba(177, 142, 46, 0.753);
+}
+
+.pokemon_card.background_rock {
+  background-color: rgb(58, 56, 50);
+}
+
+.pokemon_card.background_normal {
+  background-color: #9c4e30;
+}
+
+.pokemon_card.background_bug {
+  background-color: #7a6725a8;
+}
+
+/* ////////////////////////////////////////// */
+
+.poke_infos.background_fire {
+  background-color: rgba(71, 2, 2, 0.747);
+}
+
+.poke_infos.background_water {
+  background-color: rgba(9, 52, 117, 0.863);
+}
+
+.poke_infos.background_electric {
+  background-color: rgba(180, 180, 15, 0.822);
+}
+
+.poke_infos.background_grass {
+  background-color: rgba(23, 99, 8, 0.753);
+}
+
+.poke_infos.background_ice {
+  background-color: rgba(28, 116, 104, 0.753);
+}
+
+.poke_infos.background_psychic {
+  background-color: rgba(5, 29, 66, 0.863);
+}
+
+.poke_infos.background_ground {
+  background-color: rgba(99, 79, 24, 0.753);
+}
+
+.poke_infos.background_rock {
+  background-color: rgb(39, 36, 33);
+}
+
+.poke_infos.background_normal {
+  background-color: #7a3d25;
+}
+
+.poke_infos.background_bug {
+  background-color: #3d3411a8;
+}
